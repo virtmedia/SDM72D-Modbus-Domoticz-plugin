@@ -18,7 +18,7 @@ Hint: Set reading interval to 0 if you want updates per "heartbeat" of the syste
 <br>
 9 new devices will be automatically added. Go to devices tab, there you can find them<br>
 Don't forget to restart your Domoticz server<br>
-Tested on domoticz 4.10717
+Tested on domoticz v2020.2
 <br><br><br>
 Used python modules: <br>
 pyserial -> https://pythonhosted.org/pyserial/ <br>
