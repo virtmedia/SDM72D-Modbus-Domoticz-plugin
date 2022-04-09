@@ -23,3 +23,5 @@ Tested on domoticz v2020.2
 Used python modules: <br>
 pyserial -> https://pythonhosted.org/pyserial/ <br>
 minimalmodbus -> http://minimalmodbus.readthedocs.io<br>
+<br><br>
+Still working on version Version: 2022.1
