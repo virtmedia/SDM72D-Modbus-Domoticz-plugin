@@ -18,6 +18,7 @@ If needed modify some parameters (defaults will do) and click add<br>
 Hint: Set reading interval to 0 if you want updates per "heartbeat" of the system (aprox 10s in my case)<br>
 <br>
 9 new devices will be automatically added. Go to devices tab, there you can find them<br>
+<br>
 Tested on domoticz v2020.2
 <br><br><br>
 Used python modules: <br>
