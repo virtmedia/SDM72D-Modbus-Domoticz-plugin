@@ -10,6 +10,7 @@ If python plugin service is not working try "sudo apt-get install python3.7 libp
 Installation: <br>
 cd ~/domoticz/plugins<br>
 git clone https://github.com/bbossink/SDM72D-Modbus-Domoticz-plugin <br>
+Restart domoticz: systemctl restart domoticz.service <br>
 <br>
 Configuration: <br>
 Select "Eastron SDM72-D-Modbus" in Hardware configuration screen<br>
@@ -17,11 +18,8 @@ If needed modify some parameters (defaults will do) and click add<br>
 Hint: Set reading interval to 0 if you want updates per "heartbeat" of the system (aprox 10s in my case)<br>
 <br>
 9 new devices will be automatically added. Go to devices tab, there you can find them<br>
-Don't forget to restart your Domoticz server<br>
 Tested on domoticz v2020.2
 <br><br><br>
 Used python modules: <br>
 pyserial -> https://pythonhosted.org/pyserial/ <br>
 minimalmodbus -> http://minimalmodbus.readthedocs.io<br>
-<br><br>
-Still working on version Version: 2022.1
